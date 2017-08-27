@@ -13,7 +13,7 @@
 ## Running the program
 
 1. Right click on your `Java Project` --> `Run As` --> `Java Application` --> `Mapper`
-2. To load the map, click `Load` and `ProjectName/src/data`
+2. To load the map, click `Load` and find `ProjectName/src/data`. It's actually the `data` directory
 3. Use the UI controls to zoom in/out and navigate through the map
 
 ## Overview
