@@ -58,3 +58,14 @@ of the file.
 
 ## Features
 
+- Navigable map
+- Selectable intersection with the mouse
+  - The program will highlight intersection, and print out the ID of the intersection and the names of all the roads at the intersection.
+- Allowa user to select a road by entering its name
+  - Highlight the road with name matching their input by drawing all the segments in all the Road objects that have the given name in a highlighted colour
+  - This includes the name of all roads that start with the prefix typed into the search box
+- Route finding
+  - Allows the user to specify two intersections on the map and will then find using A* search and display the shortest route between those two locations
+  - Highlight the route on the map (by colouring all the road segments along the route) and output a list of all the roads along the route, along with the lengths of each part of the route and the total length of the route
+- Critical intersections
+  -  This is an analysis tool that might be used by emergency services planners who want to identify every intersection that would have bad consequences for emergency services if it were blocked or disabled in some way. An intersection that is the only entrance way into some part of the map is a critical intersection
