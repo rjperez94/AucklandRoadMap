@@ -4,7 +4,7 @@
 
 1. Download this repository as ZIP
 2. Create new `Java Project` in `Eclipse`
-3. Right click on your `Java Project` --> `Import`
+3. Right-click on your `Java Project` --> `Import`
 4. Choose `General` --> `Archive File`
 5. Put directory where you downloaded ZIP in `From archive file`
 6. Put `ProjectName/src` in `Into folder`
@@ -12,7 +12,7 @@
 
 ## Running the program
 
-1. Right click on your `Java Project` --> `Run As` --> `Java Application` --> `Mapper`
+1. Right-click on your `Java Project` --> `Run As` --> `Java Application` --> `Mapper`
 2. To load the map, click `Load` and find `ProjectName/src/data`. It's actually the `data` directory
 3. Use the UI controls to zoom in/out and navigate through the map
 
@@ -50,7 +50,7 @@ If you are trying to pick a file from your physical hard drive, you cannot brows
 
 ## Overview
 
-A program that lets a user view and search the Auckland, New Zealand Road system. This is a program that will read a collection of files containing information about the roads in the Auckland region, display the information visually, and let the user view and search the data in several ways. It can also find and displaying shortest
+A program that lets a user view and search the Auckland, New Zealand Road system. This is a program that will read a collection of files containing information about the roads in the Auckland region, display the information visually, and let the user view and search the data in several ways. It can also find and display shortest
 routes between intersections, identify critical intersections for disaster management, and calculate total capacity of the road system between two points. The program uses several large data structures.
 
 ### The data
